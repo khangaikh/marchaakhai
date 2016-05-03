@@ -14,6 +14,13 @@ return [
     |
     */
 
+    'firebase' => [
+        'host'      => 'https://marchaakhai.firebaseio.com/',
+        'token'     => '73plwnCXworY3aNla7aDYY6MjOPBAN2XYhhAt9yY',
+        'timeout'   => 10,
+        'sync'      => true,
+    ],
+
     'mailgun' => [
         'domain' => env('MAILGUN_DOMAIN'),
         'secret' => env('MAILGUN_SECRET'),
